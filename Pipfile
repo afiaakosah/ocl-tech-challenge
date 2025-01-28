@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+requests = "*"
+sqlalchemy = "*"
+fastapi = {extras = ["standard"], version = "*"}
+apscheduler = "*"
+python-dotenv = "*"
+pandas = "*"
+psycopg2-binary = "*"
+uvicorn = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.13"
